@@ -94,9 +94,4 @@ export default {
 }
 </script>
 
-<style lang="scss">
-a {
-  color: $theme-color;
-  border: $border;
-}
-</style>
+

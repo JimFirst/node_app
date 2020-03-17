@@ -1,2 +1,2 @@
-# demo_cli
-一个比较不错的vue脚手架
+node后台，vue
+client npm run build，自动打包生成public文件夹

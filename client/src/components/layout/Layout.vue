@@ -1,25 +1,23 @@
 <template>
   <div>
+    <d-header></d-header>
     <div>
-      header
-    </div>
-    <div>
-      <div>
-        sidebar
-      </div>
       <div>
         <router-view></router-view>
       </div>
     </div>
-    <div>
-      header
-    </div>
+    <d-footer></d-footer>
   </div>
 </template>
 
 <script>
+import DHeader from './DHeader'
+import DFooter from './DFooter'
 export default {
-
+  components: {
+    DFooter,
+    DHeader
+  }
 }
 </script>
 
